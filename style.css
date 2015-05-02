@@ -1,0 +1,77 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+
+h1 { 
+  font-size: 6rem;
+  line-height: 6.6rem;
+  font-weight: 700; 
+  padding-bottom: 3rem;
+  text-align: center;
+}
+h2 { 
+  font-size: 2.5rem;
+  line-height: 4rem;
+  font-weight: 400; 
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+p { font-weight: 400; }
+
+section {
+  background: #171617;
+  background-size: cover;
+  color: #DBDDE2;
+  padding: 2em;
+  font-family: "Droid Serif", Baskerville, Georgia;
+  /*text-align: center;*/
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+section ul,
+section ol {
+  /*text-align: left;*/
+}
+
+.v-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#follow {
+  background: none;
+}
+
+.loud {
+  color: #F8842E;
+}
+
+.quiet {
+  color: #999;
+}
+
+.center {
+  text-align: center;
+}
+
+.dot {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(img/dot-matrix.png);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 4;
+  text-align: center;
+}
+
+footer img {
+  height: 30px;
+  padding: 0 6px;
+}
